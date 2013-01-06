@@ -55,7 +55,7 @@ CCharacterLibDownloadDlg::CCharacterLibDownloadDlg(CWnd* pParent /*=NULL*/)
 {
 	m_filename = _T("");
 	m_hIcon = AfxGetApp()->LoadIcon(IDR_MAINFRAME);
-	m_font.CreatePointFont(100,_T("ËÎÌו"));
+	m_font.CreatePointFont(105,_T("¿¬Ìו_GB2312"));
 }
 
 void CCharacterLibDownloadDlg::DoDataExchange(CDataExchange* pDX)
